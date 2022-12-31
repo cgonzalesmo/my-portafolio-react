@@ -64,18 +64,21 @@ export default function Home() {
               <a
                 href="https://www.facebook.com/cjgonzalesm/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <AiFillFacebook/>
               </a>
               <a 
                 href="https://www.linkedin.com/in/cgonzalesmolina/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <AiFillLinkedin />
               </a>
               <a
                 href="https://www.youtube.com/@cgonzalesmolina"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <AiFillYoutube />
               </a>
@@ -90,7 +93,8 @@ export default function Home() {
             
             <h3 className="text-3xl py-1 dark:text-white ">Biografia</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Tengo 23 años vivo en la ciudad de Arequipa(Perú), estudie Ingenieria de Sistemas en la <a href="https://fips.unsa.edu.pe/ingenieriadesistemas/" className="text-red-300" target="_blank">Universidad Nacional de San Agustin</a>, mis hoobies son el futbol, la natacion e investigar las nuevas tecnologias que se van incorporando al mundo moderno.
+              Tengo 23 años vivo en la ciudad de Arequipa(Perú), estudie Ingenieria de Sistemas en la 
+              <a href="https://fips.unsa.edu.pe/ingenieriadesistemas/" className="text-red-300" target="_blank" rel="noopener noreferrer">Universidad Nacional de San Agustin</a>, mis hoobies son el futbol, la natacion e investigar las nuevas tecnologias que se van incorporando al mundo moderno.
             </p>
             
             
@@ -112,6 +116,7 @@ export default function Home() {
               <a
                 href="https://github.com/csullcap/PIS-proyect"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <Image
                   className="rounded-lg object-cover"
@@ -126,6 +131,7 @@ export default function Home() {
               <a
                 href="https://github.com/cgonzalesmo/doctor_app"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <Image
                   className="rounded-lg object-cover"
